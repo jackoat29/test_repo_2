@@ -15,7 +15,9 @@ tags = ['tag', 'another tag']
 readme = "README.md"
 license = { file = "license.txt" }
 # license = { text = "MIT License" }
-files = ["path/to/file.scad", "glob/pattern/to/some/.scad/files/*"]
+
+[files]
+scad_files = ["path/to/file.scad", "glob/pattern/to/some/.scad/files/*"]
 
 [urls]
 repository = "github.com/github/example"
